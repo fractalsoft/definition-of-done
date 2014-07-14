@@ -23,8 +23,9 @@ Definition of Done
 * Każdy fragment kodu jest sprawdzany przez 2 osoby. [Code Review](http://en.wikipedia.org/wiki/Code_review)
 * Stosujemy [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/). Branch master zawiera tylko stabilne wersje ukończonych funkcjonalności. Branch develop zawiera ukończoną funkcjonalność. Nowa funkcjonalność jest dodawana na lokalnym branchu utworzonym od brancha develop. Małe commity!
 * Raz w miesiącu zapraszamy mugoli do przetestowania intuicyjności aplikacji.
-* Generowanie dokumentacji po zakończeniu danej funkcjonalności.
-* Zapisujemy w pliku *CHANGELOG.md* informacje o nowo dodanej funkcjonalności.
+* Generowanie dokumentacji po zakończeniu danej funkcjonalności:
+  - aplikacje w [Ruby on Rails](http://guides.rubyonrails.org/command_line.html#doc)
+* Zapisujemy w pliku *CHANGELOG.md* informacje o nowo dodanej funkcjonalności wraz z [numerem wersji](http://semver.org/).
 * Nowa funkcjonalność bez grafiki tworzona jest z użyciem frameworku [Bootstrap](http://getbootstrap.com/).
 * Zakupujemy odpowiednie obrazki po akceptacji klienta.
 * Grafika w wersji końcowej jest w odpowiednim formacie (druk: pdf, web: png/jpg).
